@@ -8,28 +8,50 @@
 	 
 }
 
-#button3.waf-state-active {
-	 color: rgb(255, 255, 255);
-	 
-}
-
-#button2.waf-state-active {
-	 color: rgb(255, 255, 255);
-	 
-}
-
-#button1.waf-state-active {
-	 color: rgb(255, 255, 255);
-	 
-}
-
 #button4.waf-state-hover {
 	 color: rgb(205, 73, 13);
 	 
 }
 
+#button4 {
+	 width: 153px;
+	 height: 45px;
+	 top: 188px;
+	 left: 68px;
+	
+	 position: absolute;
+	 font-size: 18px;
+	 color: rgb(62, 32, 4);
+	 z-index: 4;
+	 
+}
+
+#button3.waf-state-active {
+	 color: rgb(255, 255, 255);
+	 
+}
+
 #button3.waf-state-hover {
 	 color: rgb(205, 73, 13);
+	 
+}
+
+#button3 {
+	 width: 154px;
+	 height: 45px;
+	 top: 130px;
+	 left: 68px;
+	
+	 position: absolute;
+	 font-size: 18px;
+	 color: rgb(62, 32, 4);
+	 z-index: 3;
+	 
+}
+
+#button2.waf-state-active {
+	 color: rgb(255, 255, 255);
+	 background-repeat: repeat;
 	 
 }
 
@@ -46,39 +68,7 @@
 	 
 }
 
-#button1.waf-state-hover {
-	 color: rgb(205, 73, 13);
-	 
-}
-
-#button4 {
-	 z-index: 4;
-	 width: 153px;
-	 height: 45px;
-	 top: 188px;
-	 left: 68px;
-	
-	 position: absolute;
-	 font-size: 18px;
-	 color: rgb(62, 32, 4);
-	 
-}
-
-#button3 {
-	 z-index: 3;
-	 width: 154px;
-	 height: 45px;
-	 top: 130px;
-	 left: 68px;
-	
-	 position: absolute;
-	 font-size: 18px;
-	 color: rgb(62, 32, 4);
-	 
-}
-
 #button2 {
-	 z-index: 2;
 	 width: 157px;
 	 height: 46px;
 	 top: 71px;
@@ -87,41 +77,53 @@
 	 position: absolute;
 	 font-size: 18px;
 	 color: rgb(62, 32, 4);
+	 z-index: 2;
+	 background-repeat: repeat;
+	 
+}
+
+#button1.waf-state-active {
+	 color: rgb(255, 255, 255);
+	 
+}
+
+#button1.waf-state-hover {
+	 color: rgb(205, 73, 13);
 	 
 }
 
 #button1 {
-	 z-index: 1;
 	 width: 156px;
 	 height: 44px;
 	 top: 14px;
-	 left: 69px;
+	 left: 65px;
 	
 	 position: absolute;
 	 font-size: 18px;
 	 color: rgb(62, 32, 4);
+	 z-index: 1;
 	 
 }
 
 #container1 {
-	 z-index: 3;
 	 width: 294px;
 	 height: 250px;
 	 top: 238px;
 	 left: 77px;
 	
 	 position: absolute;
+	 z-index: 2;
 	 
 }
 
 #image1 {
-	 z-index: 1;
 	 width: 800px;
 	 height: 300px;
 	 top: -42px;
 	 left: -166px;
 	
 	 position: absolute;
+	 z-index: 1;
 	 
 }
 

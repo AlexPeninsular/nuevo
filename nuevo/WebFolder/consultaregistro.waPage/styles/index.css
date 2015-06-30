@@ -3,14 +3,126 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
+#button8 {
+	 width: 153px;
+	 height: 45px;
+	 top: 188px;
+	 left: 68px;
+	
+	 position: absolute;
+	 font-size: 18px;
+	 color: rgb(62, 32, 4);
+	 z-index: 4;
+	 
+}
+
+#button8.waf-state-hover {
+	 color: rgb(205, 73, 13);
+	 
+}
+
+#button8.waf-state-active {
+	 color: rgb(255, 255, 255);
+	 
+}
+
+#button7 {
+	 width: 154px;
+	 height: 45px;
+	 top: 130px;
+	 left: 68px;
+	
+	 position: absolute;
+	 font-size: 18px;
+	 color: rgb(62, 32, 4);
+	 z-index: 3;
+	 
+}
+
+#button7.waf-state-hover {
+	 color: rgb(205, 73, 13);
+	 
+}
+
+#button7.waf-state-active {
+	 color: rgb(255, 255, 255);
+	 
+}
+
+#button6 {
+	 width: 157px;
+	 height: 46px;
+	 top: 71px;
+	 left: 67px;
+	
+	 position: absolute;
+	 font-size: 18px;
+	 color: rgb(62, 32, 4);
+	 z-index: 2;
+	 background-repeat: repeat;
+	 
+}
+
+#button6.waf-state-hover {
+	 color: rgb(205, 73, 13);
+	 background-image:url("data:image/svg+xml;base64, PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB2aWV3Qm94PSIwIDAgMSAxIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48bGluZWFyR3JhZGllbnQgaWQ9IndhZi1pZS1ncmFkaWVudCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHg9IjAiIHk9IjAiIHgyPSIwIiB5Mj0iMTAwJSI+PHN0b3Agc3RvcC1jb2xvcj0iI2ZmZmZmZiIgb2Zmc2V0PSIwJSIgc3RvcC1vcGFjaXR5PSIxIiAvPjxzdG9wIHN0b3AtY29sb3I9IiNmZmZmZmYiIG9mZnNldD0iNTAlIiBzdG9wLW9wYWNpdHk9IjEiIC8+PHN0b3Agc3RvcC1jb2xvcj0iI2NjZmFmYyIgb2Zmc2V0PSI1MCUiIHN0b3Atb3BhY2l0eT0iMSIgLz48c3RvcCBzdG9wLWNvbG9yPSIjY2NmYWZjIiBvZmZzZXQ9IjEwMCUiIHN0b3Atb3BhY2l0eT0iMSIgLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjd2FmLWllLWdyYWRpZW50KSIgLz48L3N2Zz4=");
+	 background-image:-webkit-gradient(linear,0% 0%, 0% 100%,color-stop(0, rgb(255, 255, 255)),color-stop(0.5, rgb(255, 255, 255)),color-stop(0.5, rgb(204, 250, 252)),color-stop(1, rgb(204, 250, 252)));
+	 background-image:-webkit-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(255, 255, 255) 50%,rgb(204, 250, 252) 50%,rgb(204, 250, 252) 100%);
+	 background-image:-moz-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(255, 255, 255) 50%,rgb(204, 250, 252) 50%,rgb(204, 250, 252) 100%);
+	 background-image:-ms-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(255, 255, 255) 50%,rgb(204, 250, 252) 50%,rgb(204, 250, 252) 100%);
+	 background-image:-o-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(255, 255, 255) 50%,rgb(204, 250, 252) 50%,rgb(204, 250, 252) 100%);
+	 background-image:linear-gradient(top, rgb(255, 255, 255) 0%,rgb(255, 255, 255) 50%,rgb(204, 250, 252) 50%,rgb(204, 250, 252) 100%);
+	 background-repeat: repeat;
+	 
+}
+
+#button6.waf-state-active {
+	 color: rgb(255, 255, 255);
+	 
+}
+
+#button5 {
+	 width: 156px;
+	 height: 44px;
+	 top: 14px;
+	 left: 69px;
+	
+	 position: absolute;
+	 font-size: 18px;
+	 color: rgb(62, 32, 4);
+	 z-index: 1;
+	 
+}
+
+#button5.waf-state-hover {
+	 color: rgb(205, 73, 13);
+	 
+}
+
+#button5.waf-state-active {
+	 color: rgb(255, 255, 255);
+	 
+}
+
+#container2 {
+	 width: 294px;
+	 height: 250px;
+	 top: 238px;
+	 left: 77px;
+	
+	 position: absolute;
+	 z-index: 3;
+	 
+}
+
 #image1 {
+	 z-index: 1;
 	 width: 800px;
 	 height: 300px;
 	 top: -42px;
 	 left: -166px;
 	
 	 position: absolute;
-	 z-index: 1;
 	 
 }
 
