@@ -3,14 +3,24 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
+#login1 {
+	 width: 185px;
+	 height: 80px;
+	 top: 0px;
+	 left: 0px;
+	
+	 
+}
+
 #button2 {
 	 z-index: 3;
 	 width: 147px;
 	 height: 72px;
-	 top: 476px;
-	 left: 641px;
+	 top: 459px;
+	 left: 628px;
 	
 	 position: absolute;
+	 font-size: 20px;
 	 
 }
 
@@ -18,10 +28,11 @@
 	 z-index: 2;
 	 width: 148px;
 	 height: 68px;
-	 top: 363px;
-	 left: 640px;
+	 top: 346px;
+	 left: 627px;
 	
 	 position: absolute;
+	 font-size: 20px;
 	 
 }
 
