@@ -3,6 +3,26 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
+#button3 {
+	 z-index: 4;
+	 width: 92px;
+	 height: 22px;
+	 top: 435px;
+	 left: 631px;
+	
+	 position: absolute;
+	 
+}
+
+#richText1 {
+	 width: 490px;
+	 height: 36px;
+	 top: 432px;
+	 left: 400px;
+	
+	 
+}
+
 #button2.waf-state-hover {
 	 color: rgb(62, 32, 4);
 	 text-shadow: rgb(191, 128, 72) 1px 1px 0px;
