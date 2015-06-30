@@ -3,12 +3,34 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
+#button2 {
+	 z-index: 3;
+	 width: 147px;
+	 height: 72px;
+	 top: 476px;
+	 left: 641px;
+	
+	 position: absolute;
+	 
+}
+
+#button1 {
+	 z-index: 2;
+	 width: 148px;
+	 height: 68px;
+	 top: 363px;
+	 left: 640px;
+	
+	 position: absolute;
+	 
+}
+
 #image1 {
 	 z-index: 1;
 	 width: 800px;
 	 height: 300px;
-	 top: 60px;
-	 left: 303px;
+	 top: 35px;
+	 left: 307px;
 	
 	 position: absolute;
 	 
