@@ -3,6 +3,40 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
+#label1 {
+	 z-index: 2;
+	 width: 84px;
+	 height: 13px;
+	 top: 31px;
+	 left: 63px;
+	
+	 text-align: center;
+	 position: absolute;
+	 
+}
+
+#icon1 {
+	 z-index: 2;
+	 width: 58px;
+	 height: 61px;
+	 top: 7px;
+	 left: 0px;
+	
+	 position: absolute;
+	 
+}
+
+#imageButton1 {
+	 z-index: 4;
+	 width: 146px;
+	 height: 76px;
+	 top: 425px;
+	 left: 476px;
+	
+	 position: absolute;
+	 
+}
+
 #button2.waf-state-hover {
 	 color: rgb(62, 32, 4);
 	 text-shadow: rgb(191, 128, 72) 1px 1px 0px;
