@@ -3,18 +3,7 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
-#image1 {
-	 width: 800px;
-	 height: 300px;
-	 top: 16px;
-	 left: -21px;
-	
-	 position: absolute;
-	 z-index: 4;
-	 
-}
-
-#label2 {
+#label4 {
 	 width: 87px;
 	 height: 15px;
 	 top: 52px;
@@ -26,7 +15,7 @@
 	 
 }
 
-#label1 {
+#label3 {
 	 width: 99px;
 	 height: 15px;
 	 top: 53px;
@@ -38,7 +27,7 @@
 	 
 }
 
-#icon4 {
+#icon3 {
 	 width: 70px;
 	 height: 63px;
 	 top: 28px;
@@ -49,7 +38,7 @@
 	 
 }
 
-#imageButton4 {
+#imageButton3 {
 	 width: 263px;
 	 height: 120px;
 	 top: 194px;
@@ -60,7 +49,7 @@
 	 
 }
 
-#icon1 {
+#icon2 {
 	 width: 80px;
 	 height: 91px;
 	 top: 15px;
@@ -71,10 +60,10 @@
 	 
 }
 
-#imageButton1 {
+#imageButton2 {
 	 width: 264px;
 	 height: 121px;
-	 top: 31px;
+	 top: 26px;
 	 left: 178px;
 	
 	 position: absolute;
@@ -82,14 +71,25 @@
 	 
 }
 
-#container4 {
+#container1 {
 	 width: 626px;
-	 height: 342px;
-	 top: 257px;
-	 left: 86px;
+	 height: 332px;
+	 top: 191px;
+	 left: 76px;
 	
 	 position: absolute;
 	 z-index: 3;
+	 
+}
+
+#image2 {
+	 width: 800px;
+	 height: 300px;
+	 top: -54px;
+	 left: -35px;
+	
+	 position: absolute;
+	 z-index: 2;
 	 
 }
 
