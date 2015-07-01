@@ -3,94 +3,68 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
-#navigationView1 {
-	 width: 0px;
-	 height: 0px;
-	 top: 0px;
-	 left: 0px;
-	
-	 
-}
-
-#viewManager1 {
-	 width: 320px;
-	 height: 418px;
-	 top: 0px;
-	 left: 0px;
-	
-	 
-}
-
-#footer1 {
-	 width: 320px;
-	 height: 47px;
-	 top: 0px;
-	 left: 0px;
-	
-	 
-}
-
-#view1 {
-	 width: 320px;
-	 height: 480px;
-	 top: 0px;
-	 left: 0px;
-	
-	 
-}
-
-#header1 {
-	 width: 320px;
-	 height: 44px;
-	 top: 0px;
-	 left: 0px;
-	
-	 
-}
-
-#title1 {
-	 width: 36px;
+#label2 {
+	 z-index: 2;
+	 width: 41px;
 	 height: 15px;
-	 top: 0px;
-	 left: 0px;
+	 top: 39px;
+	 left: 63px;
 	
+	 text-align: center;
+	 position: absolute;
 	 
 }
 
-#backButton1 {
-	 width: 50px;
-	 height: 29px;
-	 top: 0px;
-	 left: 0px;
-	
-	 
-}
-
-#body1 {
-	 width: 320px;
-	 height: 480px;
-	 top: 0px;
-	 left: 0px;
-	
-	 
-}
-
-#button2 {
-	 z-index: 3;
-	 width: 119px;
-	 height: 51px;
-	 top: 350px;
-	 left: 102px;
+#icon2 {
+	 z-index: 2;
+	 width: 33px;
+	 height: 39px;
+	 top: 27px;
+	 left: 25px;
 	
 	 position: absolute;
 	 
 }
 
-#button1 {
+#imageButton2 {
+	 z-index: 5;
+	 width: 136px;
+	 height: 93px;
+	 top: 335px;
+	 left: 101px;
+	
+	 position: absolute;
+	 
+}
+
+#label1 {
 	 z-index: 2;
-	 width: 122px;
+	 width: 46px;
+	 height: 15px;
+	 top: 38px;
+	 left: 65px;
+	
+	 text-align: center;
+	 position: absolute;
+	 
+}
+
+#icon1 {
+	 z-index: 2;
+	 width: 40px;
 	 height: 51px;
-	 top: 266px;
+	 top: 20px;
+	 left: 20px;
+	
+	 position: absolute;
+	 
+}
+
+#imageButton1 {
+	 z-index: 4;
+	 width: 137px;
+	 height: 92px;
+	 top: 223px;
 	 left: 101px;
 	
 	 position: absolute;
