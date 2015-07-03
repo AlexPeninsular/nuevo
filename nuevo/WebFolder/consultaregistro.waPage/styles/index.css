@@ -3,6 +3,291 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
+#dataGrid3 {
+	 z-index: 33;
+	 width: 509px;
+	 height: 296px;
+	 top: 85px;
+	 left: 816px;
+	
+	 position: absolute;
+	 
+}
+
+#richText4 {
+	 z-index: 32;
+	 width: 835px;
+	 height: 45px;
+	 top: 21px;
+	 left: 482px;
+	
+	 position: absolute;
+	 font-size: 18px;
+	 color: rgb(62, 32, 4);
+	 
+}
+
+#richText3 {
+	 z-index: 30;
+	 width: 184px;
+	 height: 131px;
+	 top: 379px;
+	 left: 477px;
+	
+	 position: absolute;
+	 font-size: 18px;
+	 color: rgb(62, 32, 4);
+	 text-align: center;
+	 
+}
+
+#label10 {
+	 z-index: 8;
+	 width: 75px;
+	 height: 13px;
+	 top: 150px;
+	 left: 15px;
+	
+	 position: absolute;
+	 min-width: 75px;
+	 
+}
+
+#textField9 {
+	 z-index: 8;
+	 width: 541px;
+	 height: 22px;
+	 top: 146px;
+	 left: 95px;
+	
+	 position: absolute;
+	 
+}
+
+#label9 {
+	 z-index: 6;
+	 width: 75px;
+	 height: 13px;
+	 top: 108px;
+	 left: 15px;
+	
+	 position: absolute;
+	 min-width: 75px;
+	 
+}
+
+#textField8 {
+	 z-index: 6;
+	 width: 538px;
+	 height: 22px;
+	 top: 104px;
+	 left: 95px;
+	
+	 position: absolute;
+	 
+}
+
+#label8 {
+	 z-index: 4;
+	 width: 75px;
+	 height: 13px;
+	 top: 66px;
+	 left: 15px;
+	
+	 position: absolute;
+	 min-width: 75px;
+	 
+}
+
+#textField7 {
+	 z-index: 4;
+	 width: 538px;
+	 height: 22px;
+	 top: 62px;
+	 left: 95px;
+	
+	 position: absolute;
+	 
+}
+
+#label7 {
+	 z-index: 2;
+	 width: 75px;
+	 height: 13px;
+	 top: 24px;
+	 left: 15px;
+	
+	 position: absolute;
+	 min-width: 75px;
+	 
+}
+
+#textField6 {
+	 z-index: 2;
+	 width: 537px;
+	 height: 22px;
+	 top: 20px;
+	 left: 95px;
+	
+	 position: absolute;
+	 
+}
+
+#container3 {
+	 z-index: 1;
+	 width: 650px;
+	 height: 194px;
+	 top: 12px;
+	 left: 5px;
+	
+	 position: absolute;
+	 
+}
+
+#button10 {
+	 z-index: 27;
+	 width: 130px;
+	 height: 91px;
+	 top: 512px;
+	 left: 510px;
+	
+	 position: absolute;
+	 font-size: 16px;
+	 color: rgb(62, 32, 4);
+	 
+}
+
+#container1 {
+	 z-index: 26;
+	 width: 658px;
+	 height: 211px;
+	 top: 392px;
+	 left: 669px;
+	
+	 position: absolute;
+	 
+}
+
+#button9 {
+	 z-index: 23;
+	 width: 131px;
+	 height: 49px;
+	 top: 332px;
+	 left: 668px;
+	
+	 position: absolute;
+	 
+}
+
+#button4 {
+	 z-index: 22;
+	 width: 130px;
+	 height: 54px;
+	 top: 230px;
+	 left: 669px;
+	
+	 position: absolute;
+	 
+}
+
+#label6 {
+	 z-index: 21;
+	 width: 144px;
+	 height: 15px;
+	 top: 307px;
+	 left: 519px;
+	
+	 position: absolute;
+	 font-size: 14px;
+	 color: rgb(62, 32, 4);
+	 
+}
+
+#textField5 {
+	 z-index: 21;
+	 width: 130px;
+	 height: 22px;
+	 top: 304px;
+	 left: 668px;
+	
+	 position: absolute;
+	 font-size: 18px;
+	 color: rgb(62, 32, 4);
+	 
+}
+
+#label5 {
+	 z-index: 19;
+	 width: 180px;
+	 height: 15px;
+	 top: 203px;
+	 left: 484px;
+	
+	 position: absolute;
+	 font-size: 14px;
+	 color: rgb(62, 32, 4);
+	 
+}
+
+#textField4 {
+	 z-index: 19;
+	 width: 130px;
+	 height: 22px;
+	 top: 200px;
+	 left: 669px;
+	
+	 position: absolute;
+	 font-size: 18px;
+	 color: rgb(62, 32, 4);
+	 
+}
+
+#richText2 {
+	 z-index: 11;
+	 width: 50px;
+	 height: 16px;
+	 top: 73px;
+	 left: 675px;
+	
+	 position: absolute;
+	 
+}
+
+#button1 {
+	 z-index: 8;
+	 width: 127px;
+	 height: 57px;
+	 top: 125px;
+	 left: 668px;
+	
+	 position: absolute;
+	 
+}
+
+#label1 {
+	 z-index: 6;
+	 width: 175px;
+	 height: 15px;
+	 top: 89px;
+	 left: 485px;
+	
+	 position: absolute;
+	 font-size: 14px;
+	 color: rgb(62, 32, 4);
+	 
+}
+
+#richText1 {
+	 z-index: 4;
+	 width: 75px;
+	 height: 16px;
+	 top: 82px;
+	 left: 579px;
+	
+	 position: absolute;
+	 
+}
+
 #button8 {
 	 z-index: 4;
 	 width: 153px;
@@ -26,39 +311,16 @@
 	 
 }
 
-#button7 {
-	 z-index: 3;
-	 width: 154px;
-	 height: 45px;
-	 top: 130px;
-	 left: 68px;
-	
-	 position: absolute;
-	 font-size: 18px;
-	 color: rgb(62, 32, 4);
-	 
-}
-
-#button7.waf-state-hover {
-	 color: rgb(205, 73, 13);
-	 
-}
-
-#button7.waf-state-active {
-	 color: rgb(255, 255, 255);
-	 
-}
-
 #button6 {
 	 z-index: 2;
-	 width: 157px;
-	 height: 46px;
+	 width: 154px;
+	 height: 102px;
 	 top: 71px;
 	 left: 67px;
 	
 	 position: absolute;
 	 font-size: 18px;
-	 color: rgb(62, 32, 4);
+	 color: rgb(204, 204, 204);
 	 background-repeat: repeat;
 	 
 }
@@ -85,7 +347,7 @@
 	 z-index: 1;
 	 width: 156px;
 	 height: 44px;
-	 top: 14px;
+	 top: 17px;
 	 left: 69px;
 	
 	 position: absolute;
@@ -105,11 +367,11 @@
 }
 
 #container2 {
-	 z-index: 3;
+	 z-index: 2;
 	 width: 294px;
 	 height: 250px;
 	 top: 238px;
-	 left: 77px;
+	 left: 85px;
 	
 	 position: absolute;
 	 
@@ -123,6 +385,19 @@
 	 left: -166px;
 	
 	 position: absolute;
+	 
+}
+
+#textField1 {
+	 z-index: 6;
+	 width: 130px;
+	 height: 22px;
+	 top: 86px;
+	 left: 665px;
+	
+	 position: absolute;
+	 font-size: 18px;
+	 color: rgb(62, 32, 4);
 	 
 }
 

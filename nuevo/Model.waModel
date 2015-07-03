@@ -1,2 +1,160 @@
-{    "toJSON": true,    "dbInfo": [{        "name": "Model",        "uuid": ""    }],    "extraProperties": {        "version": "1",        "classes": {        },        "model": {            "scriptMode": "manual"
-        }    },    "dataClasses": []}
+﻿{
+	"toJSON": true,
+	"extraProperties": {
+		"version": "2",
+		"classes": {
+			"Mascota": {
+				"panelColor": "#fff",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 25,
+						"Y": 20
+					}
+				}
+			}
+		},
+		"model": {
+			"scriptMode": "manual",
+			"workspaceLeft": 0,
+			"workspaceTop": 0,
+			"lastScriptLocation": {
+				"Mascota": {
+					"method": "Mascota/Mascota-methods.js"
+				}
+			}
+		}
+	},
+	"dataClasses": [
+		{
+			"name": "Mascota",
+			"className": "Mascota",
+			"collectionName": "MascotaCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "NombreDelPropietario",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "ApellidoDelPropietario",
+					"scope": "public",
+					"type": "string",
+					"kind": "storage"
+				},
+				{
+					"name": "Telefono",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "DireccionDomiciliaria",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "NombreDeMascota",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Sexo",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Especie",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Edad",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Fecha",
+					"kind": "storage",
+					"scope": "public",
+					"type": "date",
+					"simpleDate": false
+				},
+				{
+					"name": "Raza",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Mucosa",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Vacunas",
+					"kind": "storage",
+					"matchColumn": "Abdomen",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Cirugia",
+					"kind": "storage",
+					"matchColumn": "Conjuntiva",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Anotacion",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "myQuery",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "myQueryA",
+					"scope": "public",
+					"type": "string",
+					"kind": "storage"
+				},
+				{
+					"name": "myQueryB",
+					"scope": "public",
+					"type": "string",
+					"kind": "storage"
+				},
+				{
+					"name": "myQueryC",
+					"scope": "public",
+					"type": "string",
+					"kind": "storage"
+				}
+			]
+		}
+	],
+	"type": []
+}
