@@ -2,12 +2,18 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
+	var button10 = {};	// @button
 	var button9 = {};	// @button
 	var button4 = {};	// @button
 	var button1 = {};	// @button
 // @endregion// @endlock
 
 // eventHandlers// @lock
+
+	button10.click = function button10_click (event)// @startlock
+	{// @endlock
+		alert('GUARDADO!');
+	};// @lock
 
 	button9.click = function button9_click (event)// @startlock
 	{// @endlock
@@ -25,6 +31,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	};// @lock
 
 // @region eventManager// @startlock
+	WAF.addListener("button10", "click", button10.click, "WAF");
 	WAF.addListener("button9", "click", button9.click, "WAF");
 	WAF.addListener("button4", "click", button4.click, "WAF");
 	WAF.addListener("button1", "click", button1.click, "WAF");

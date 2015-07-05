@@ -6,8 +6,8 @@
 #container14 {
 	 width: 140px;
 	 height: 65px;
-	 top: NaNpx;
-	 left: NaNpx;
+	 top: auto;
+	 left: auto;
 	
 	 position: absolute;
 	 background-color: rgb(68, 117, 163);
