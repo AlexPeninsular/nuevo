@@ -11,9 +11,16 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	button5.click = function button5_click (event)// @startlock
 	{// @endlock
 		
+		sources.mascota.save({
+			onSucces:function(event)
+		{
+			sources.mascota.addEntity(sources.mascota.getCurrentElement());
+			
+		}
 		
+	});
 	
-		alert('GUARDADO!');
+		alert('Datos de mascota modificados!');
 		
 			
 	};// @lock

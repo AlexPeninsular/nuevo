@@ -12,7 +12,17 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 
 	button4.click = function button4_click (event)// @startlock
 	{// @endlock
-		alert('GUARDADO!');
+		sources.mascota.save({
+			onSucces:function(event)
+		{
+			sources.mascota.addEntity(sources.mascota.getCurrentElement());
+			
+		}
+		
+	});
+		window.alert('GUARDADO!');
+			
+		
 	};// @lock
 
 	button3.click = function button3_click (event)// @startlock
