@@ -2,6 +2,7 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
+	var button8 = {};	// @button
 	var button4 = {};	// @button
 	var button3 = {};	// @button
 	var button1 = {};	// @button
@@ -10,17 +11,29 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 
 // eventHandlers// @lock
 
+	button8.click = function button8_click (event)// @startlock
+	{// @endlock
+		if (confirm("Estas seguro que desea eliminar a la mascota "+sources.mascota.NombreDeMascota+" de "+sources.mascota.NombreDelPropietario+" "+sources.mascota.ApellidoDelPropietario+"?")){
+		sources.mascota.remove();
+	
+		alert('Mascota Elimada!');
+		
+		}
+		else(	alert('Mascota NO Eliminada!'));
+	
+			
+	// Add your code here
+	};// @lock
+
 	button4.click = function button4_click (event)// @startlock
 	{// @endlock
-		sources.mascota.save({
-			onSucces:function(event)
-		{
-			sources.mascota.addEntity(sources.mascota.getCurrentElement());
-			
-		}
+		if (confirm("Estas seguro que desea guardar las modificaciones hechas en la mascota "+sources.mascota.NombreDeMascota+" de "+sources.mascota.NombreDelPropietario+" "+sources.mascota.ApellidoDelPropietario+"?")){
+		sources.mascota.remove();
+	
+		alert('Datos de mascota modificados!');
 		
-	});
-		window.alert('GUARDADO!');
+		}
+		else(	alert('Datos de mascota no modificados!'));
 			
 		
 	};// @lock
@@ -41,6 +54,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	};// @lock
 
 // @region eventManager// @startlock
+	WAF.addListener("button8", "click", button8.click, "WAF");
 	WAF.addListener("button4", "click", button4.click, "WAF");
 	WAF.addListener("button3", "click", button3.click, "WAF");
 	WAF.addListener("button1", "click", button1.click, "WAF");
