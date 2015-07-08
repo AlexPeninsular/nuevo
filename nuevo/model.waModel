@@ -18,7 +18,7 @@
 		"model": {
 			"scriptMode": "manual",
 			"workspaceLeft": 0,
-			"workspaceTop": 0,
+			"workspaceTop": 500,
 			"lastScriptLocation": {
 				"Mascota": {
 					"method": "Mascota/Mascota-methods.js",
@@ -156,6 +156,5 @@
 				}
 			]
 		}
-	],
-	"type": []
+	]
 }

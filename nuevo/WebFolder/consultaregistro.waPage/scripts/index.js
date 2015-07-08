@@ -2,6 +2,7 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
+	var mascotaEvent = {};	// @dataSource
 	var button2 = {};	// @button
 	var button10 = {};	// @button
 	var button9 = {};	// @button
@@ -10,6 +11,12 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 // @endregion// @endlock
 
 // eventHandlers// @lock
+
+	mascotaEvent.onElementSaved = function mascotaEvent_onElementSaved (event)// @startlock
+	{// @endlock
+		
+		alert('CONFIRMADO: Datos Guardados!');
+	};// @lock
 
 	button2.click = function button2_click (event)// @startlock
 	{// @endlock
@@ -26,16 +33,14 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 
 	button10.click = function button10_click (event)// @startlock
 	{// @endlock
-		
-	if (confirm("Estas seguro que desea guardar las modificaciones hechas en la mascota "+sources.mascota.NombreDeMascota+" de "+sources.mascota.NombreDelPropietario+" "+sources.mascota.ApellidoDelPropietario+"?")){
+		if (confirm("Estas seguro que desea guardar las modificaciones hechas en la mascota "+sources.mascota.NombreDeMascota+" de "+sources.mascota.NombreDelPropietario+" "+sources.mascota.ApellidoDelPropietario+"?\n Espera el mensaje de CONFIRMACION o cancela")){
 		sources.mascota.save();
 	
-		alert('Datos de mascota modificados!');
 		
 		}
 		else(	alert('Datos de mascota no modificados!'));
-		
-		
+			
+			
 		
 	};// @lock
 
@@ -55,6 +60,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	};// @lock
 
 // @region eventManager// @startlock
+	WAF.addListener("mascota", "onElementSaved", mascotaEvent.onElementSaved, "WAF");
 	WAF.addListener("button2", "click", button2.click, "WAF");
 	WAF.addListener("button10", "click", button10.click, "WAF");
 	WAF.addListener("button9", "click", button9.click, "WAF");
