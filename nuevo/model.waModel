@@ -21,7 +21,8 @@
 			"workspaceTop": 0,
 			"lastScriptLocation": {
 				"Mascota": {
-					"method": "Mascota/Mascota-methods.js"
+					"method": "Mascota/Mascota-methods.js",
+					"events": "Mascota/Mascota-events.js"
 				}
 			}
 		}
@@ -50,9 +51,9 @@
 				},
 				{
 					"name": "ApellidoDelPropietario",
+					"kind": "storage",
 					"scope": "public",
-					"type": "string",
-					"kind": "storage"
+					"type": "string"
 				},
 				{
 					"name": "Telefono",
@@ -137,21 +138,21 @@
 				},
 				{
 					"name": "myQueryA",
+					"kind": "storage",
 					"scope": "public",
-					"type": "string",
-					"kind": "storage"
+					"type": "string"
 				},
 				{
 					"name": "myQueryB",
+					"kind": "storage",
 					"scope": "public",
-					"type": "string",
-					"kind": "storage"
+					"type": "string"
 				},
 				{
 					"name": "myQueryC",
+					"kind": "storage",
 					"scope": "public",
-					"type": "string",
-					"kind": "storage"
+					"type": "string"
 				}
 			]
 		}

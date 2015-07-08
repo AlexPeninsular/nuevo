@@ -27,13 +27,12 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 
 	button4.click = function button4_click (event)// @startlock
 	{// @endlock
-		if (confirm("Estas seguro que desea guardar las modificaciones hechas en la mascota "+sources.mascota.NombreDeMascota+" de "+sources.mascota.NombreDelPropietario+" "+sources.mascota.ApellidoDelPropietario+"?")){
-		sources.mascota.remove();
-	
-		alert('Datos de mascota modificados!');
 		
-		}
-		else(	alert('Datos de mascota no modificados!'));
+			if(navigator.onLine){
+alert('Online');
+} else {
+alert('Offline')
+}
 			
 		
 	};// @lock
