@@ -44,10 +44,6 @@
 			"type": "widget"
 		},
 		{
-			"id": "Widget/select",
-			"type": "widget"
-		},
-		{
 			"id": "cupertinoIpad",
 			"type": "theme"
 		},

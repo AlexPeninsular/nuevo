@@ -3,24 +3,6 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
-#label6 {
-	z-index: 29;
-	width: 31px;
-	height: 15px;
-	top: 1000px;
-	left: 30px;
-	position: absolute;
-}
-
-#select1 {
-	z-index: 29;
-	width: 196px;
-	height: 20px;
-	top: 998px;
-	left: 66px;
-	position: absolute;
-}
-
 #button8 {
 	z-index: 27;
 	width: 207px;
@@ -32,19 +14,19 @@
 
 #button6 {
 	z-index: 25;
-	width: 129px;
+	width: 184px;
 	height: 41px;
-	top: 602px;
-	left: 598px;
+	top: 599px;
+	left: 582px;
 	position: absolute;
 }
 
 #button5 {
 	z-index: 24;
-	width: 160px;
+	width: 198px;
 	height: 39px;
-	top: 602px;
-	left: 56px;
+	top: 599px;
+	left: 2px;
 	position: absolute;
 }
 
@@ -52,8 +34,8 @@
 	z-index: 21;
 	width: 391px;
 	height: 34px;
-	top: 609px;
-	left: 217px;
+	top: 606px;
+	left: 201px;
 	position: absolute;
 	color: rgb(62, 32, 4);
 	font-size: 18px;
@@ -378,8 +360,8 @@
 	z-index: 23;
 	width: 758px;
 	height: 228px;
-	top: 368px;
-	left: 14px;
+	top: 364px;
+	left: 4px;
 	position: absolute;
 	font-size: 12px;
 }
