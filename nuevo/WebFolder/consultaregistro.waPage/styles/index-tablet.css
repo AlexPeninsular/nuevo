@@ -3,6 +3,15 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
+#button7 {
+	z-index: 28;
+	width: 156px;
+	height: 39px;
+	top: 312px;
+	left: 580px;
+	position: absolute;
+}
+
 #button8 {
 	z-index: 27;
 	width: 207px;
