@@ -14,16 +14,16 @@
 
 #button6 {
 	z-index: 25;
-	width: 184px;
+	width: 172px;
 	height: 41px;
 	top: 599px;
-	left: 582px;
+	left: 594px;
 	position: absolute;
 }
 
 #button5 {
 	z-index: 24;
-	width: 198px;
+	width: 209px;
 	height: 39px;
 	top: 599px;
 	left: 2px;
@@ -32,10 +32,10 @@
 
 #richText1 {
 	z-index: 21;
-	width: 391px;
+	width: 388px;
 	height: 34px;
-	top: 606px;
-	left: 201px;
+	top: 604px;
+	left: 211px;
 	position: absolute;
 	color: rgb(62, 32, 4);
 	font-size: 18px;
